@@ -1,0 +1,135 @@
+
+%________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Kamil K Wojcicki
+% @author   Kamil K Wojcicki
+% @url      http://linux.dsplabs.com.au/?p=54
+% @date     Decemebr 2007
+% @info     Based on Latex Resume Template by Chris Paciorek 
+%           http://www.biostat.harvard.edu/~paciorek/
+
+\newenvironment{stuff}{\begin{list}{$\bullet$}{\topsep -2pt \itemsep -2pt}}{\vspace*{4pt}\end{list}}
+%________________________________________________________________________________________
+\documentclass[margin,centered]{resume}
+\begin{document}
+\name{\huge ANDREW CARNES \vspace{2mm}}
+\address{andrew(at)rewcarnes.com}
+\begin{resume}
+\hspace{20 mm}
+
+    %____________________________________________________________________________________
+    % Education
+    \section{\mysidestyle Education}
+
+    {\bf PhD in Particle Physics - University of Florida} (May 2018)\\\vspace{2mm}%
+    \begin{stuff}
+        \vspace{-5mm}
+        \item Cumulative GPA: 3.7/4.0 
+    \end{stuff}
+    {\bf Bachelor of Science in Physics - University of Florida} (Fall 2010)\\\vspace{2mm}%
+    \begin{stuff}
+        \vspace{-5mm}
+        \item Physics GPA: 4.0/4.0
+        \item Computer Science GPA: 4.0/4.0
+        \item Cumulative GPA: 3.8/4.0 
+        \item Graduation with Honors (Cum Laude)
+    \end{stuff}
+
+    %____________________________________________________________________________________
+    % Experience
+    \section{\mysidestyle Research Experience}
+    
+    {\bf Particle Physics Research at the Large Hadron Collider (LHC) at CERN} (2012 - 2018)\\\vspace{2mm}%
+    \textit{under Professors Paul Avery and Darin Acosta for the CMS Detector}
+    \begin{stuff}
+        \vspace*{1mm}
+                \item Invented a machine learning algorithm to minimize the expected p-value of a scientific experiment
+                \item Implemented the algorithm above to improve the search for the Higgs boson decaying to two muons by a factor of 1.3 
+                \item Developed the first machine learning based hardware trigger at CERN, reducing the rate of false positives in muon data by 3x
+                \item Developed a Boosted Decision Tree (BDT) package from scratch and implemented it in hardware to run evaluations within 25ns, yielding the 3x improved trigger above 
+                \item Advanced CERN's machine learning software by parallelizing the BDTs and adding a variety of Loss Functions (C++)
+                \item Invited speaker for the LHC's Inter-experimental Machine Learning Forum
+                \item Speaker at the artificial intelligence and computing methods conference, ACAT, in Seattle, Washington (August 2017)
+                                           
+    \end{stuff}
+
+    {\bf Quantum Turbulence Research at the Univeristy of Florida} (Summer 2012)\\\vspace{2mm}%
+    \textit{under Professor Gary Ihas}
+    \begin{stuff}
+        \vspace*{1mm}
+                \item Measured the density of quantum vortices in liquid helium
+                \item Coded analysis tools in Python to process the data collected from temperature and sound waves in liquid helium
+		\item Created 3D models of the experimental apparatus and its parts in Solidworks, machined parts, and soldered circuits
+    \end{stuff}
+
+    
+    {\bf Semiconductor Research at the University of Florida} (2010)\\\vspace{2mm}%
+    \textit{under Professor Kevin Jones}
+    \begin{stuff}
+        \vspace*{1mm}
+                \item Programmed Boltzmann Theory of Electron Transport simulations in Java to predict the conductivity of different semiconductors
+	        \item Used various chemical techniques to create silicon nanowires to prototype the design of lithium batteries with longer lifetimes
+	        \item Performed Hall Effect experiments to determine the charge carriers in semiconductors
+	        \item Cut out transistor cross-sections with the Focused Ion Beam for Transmission Electron Microscope analysis in order to diagnose their failure
+				
+    \end{stuff}
+
+    \section{\mysidestyle Teaching Experience}
+
+    {\bf Teaching Assistant at the Univeristy of Florida} (2011 - 2016)\\\vspace{2mm}%
+    \textit{under Dr. Robert Deserio, Professor Pradeep Kumar, and Professor Darin Acosta}
+    \begin{stuff}
+        \vspace*{1mm}
+                \item Physics 1 Lab (2011). Led the experiments and graded lab assignments
+                \item Physics 2 Discussion (2012). Made lesson plans and quizzes, graded quizzes, lectured, and held office hours
+                \item Physics 1 Discussion (2016). Made lesson plans and quizzes, graded quizzes, lectured, and held office hours
+    \end{stuff}
+
+    \newpage
+
+    {\bf Tutor at the University of Florida's Tutoring Center} (2010)\\\vspace{-2mm}%}
+    \begin{stuff}
+        \vspace*{1mm}
+                \item Tutored students three times a week in Physics, Calculus, and Differential Equations
+                \item Gave televised lectures on Physics twice a week
+    \end{stuff}
+
+
+    %____________________________________________________________________________________
+    % Technical Skills
+    \section{\mysidestyle Technical\\Skills}
+    
+    \begin{tabular}{@{} l @{\hspace{58mm}} r}
+    {\bf Programming Languages:} C++ and Python for the past 5 years, \\ some MATLAB and Java back in 2010 \\ \\
+    {\bf Miscellaneous:} Machine Learning Development in C++ and Python, \\ 
+                         Quantum Field Theory, Statistical Mechanics, Differential Equations, Statistics, and Linear Algebra, \\
+                         Numpy, Sci-kit Learn, Pandas, Keras (Neural Nets), Apache Spark, ROOT, UNIX, \\ 
+                         Object Oriented Programming, git
+    \end{tabular}
+
+    
+         
+    %____________________________________________________________________________________
+    % Honors and Awards
+    \section{\mysidestyle Honors and\\Awards}
+		
+    	Graduated with honors (Cum Laude), DIANA Fellowship, Grinter Fellowship, IHEPA Fellowship, Presidential Scholar, Florida Opportunity Scholar, Florida Medallion Scholar, Dean's List
+
+  %____________________________________________________________________________________
+    % Unique Coursework
+    \section{\mysidestyle Relevant\\ Coursework}
+         Machine Learning, Data Structures and Algorithms, Quantum Field Theory, Linear Algebra, Differential Equations, Calculus, Statistical Mechanics
+
+  %____________________________________________________________________________________
+    % Testimonials
+    \section{\mysidestyle Testimonials}
+              "Andrew really knew what he was talking about and knew exactly how to relay the information. Even as a TA, he is one of the best teachers I have had."
+             \\ \\ "Always had huge supply of tricks and creative ways to approach seemingly difficult problems. Entertaining guy"
+             \\ \\ "He is EXCELLENT at explaining physics concepts. He's extremely smart and very funny and nice so he is my favourite TA in my science classes in three years at UF. He also listens to and asks us what we want him to change or improve on, so he's very open to suggestion from his students."
+             \\ \\ "He brought humor into the class which definitely helps a lot. He explains questions well. He brought up new ways of looking at problems that can apply elsewhere other than just physics"
+             \\ \\ "His understanding of the course material and his ability to approach the material as a student helped me succeed in physics. Also, his selfless interest in physics helped. He would exemplify every concept with all types of crazy examples that he would explain very confidently and in a very step-wise manner. He is the smartest and most understanding physics teacher I've had. He taught better than the actual professors."
+             \\ \\ "Andrew was by far the best TA I've had in any subject at UF and am very thankful to him for helping me succeed in PHY 2048"
+\end{resume}
+\end{document}
+
+%________________________________________________________________________________________
+% EOF

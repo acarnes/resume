@@ -10,6 +10,7 @@
 \newenvironment{stuff}{\begin{list}{$\bullet$}{\topsep -2pt \itemsep -2pt}}{\vspace*{4pt}\end{list}}
 %________________________________________________________________________________________
 \documentclass[margin,centered]{resume}
+\usepackage{soul}
 \begin{document}
 \name{\huge ANDREW CARNES \vspace{2mm}}
 \address{Andrew.Carnes(at)HealthONEcares.com}
@@ -84,12 +85,15 @@
 				
     \end{stuff}
 
+    {\null}
     \section{\mysidestyle Papers}
+    {\bf Particle Physics Research at the Large Hadron Collider} (2012-2018)\\\vspace{2mm}%
+    \textit{CMS Experiment}
     \begin{stuff}
         \vspace*{1mm}
-                \item Boosted Decision Trees in the Level-1 Muon Endcap Trigger at CMS (https://cds.cern.ch/record/2290188)
-                \item Search for the standard model Higgs boson decaying into two muons in pp collisions at sqrt(s)=13TeV (https://cds.cern.ch/record/2292159) 
-                \item Automatic Categorization to Maximize Sensitivity of New Physics Searches based on Machine Learning (Under Peer Review) 
+                \item Boosted Decision Trees in the Level-1 Muon Endcap Trigger at CMS -- \\\relax https://cds.cern.ch/record/2290188
+                \item Search for the standard model Higgs boson decaying into two muons in pp collisions at sqrt(s)=13TeV -- https://cds.cern.ch/record/2292159
+                \item Automatic Categorization to Maximize Sensitivity of New Physics Searches based on Machine Learning -- Under peer review 
     \end{stuff}
 
     \section{\mysidestyle Teaching Experience}
